@@ -1,0 +1,10 @@
+{
+  "name": "@af/tsconfig",
+  "version": "1.0.0",
+  "main": "tsconfig.base.json",
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.browser.json",
+    "tsconfig.node.json"
+  ]
+}
