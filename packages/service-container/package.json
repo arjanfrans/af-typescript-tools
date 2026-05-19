@@ -1,6 +1,6 @@
 {
   "name": "@arjanfrans/af-service-container",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lightweight TypeScript service container with lifecycle management",
   "repository": {
     "directory": "packages/service-container"
@@ -24,6 +24,6 @@
     "format:check": "af-format --check src test"
   },
   "devDependencies": {
-    "@arjanfrans/af-codestyle": "0.0.1"
+    "@arjanfrans/af-codestyle": "0.0.2"
   }
 }

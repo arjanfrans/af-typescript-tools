@@ -1,6 +1,6 @@
 {
   "name": "@arjanfrans/af-dotenv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loads .env.local and .env.<NODE_ENV> into process.env, with real env variables taking priority",
   "repository": {
     "directory": "packages/dotenv"
@@ -24,6 +24,6 @@
     "format:check": "af-format --check src test"
   },
   "devDependencies": {
-    "@arjanfrans/af-codestyle": "0.0.1"
+    "@arjanfrans/af-codestyle": "0.0.2"
   }
 }

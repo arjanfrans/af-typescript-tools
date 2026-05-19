@@ -1,6 +1,6 @@
 {
   "name": "@arjanfrans/af-codestyle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared ESLint + Prettier config and CLI scripts",
   "type": "module",
   "bin": {

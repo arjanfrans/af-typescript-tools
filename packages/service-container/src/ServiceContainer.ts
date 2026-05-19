@@ -1,4 +1,5 @@
-export type ClassToken<T> = (new (...args: unknown[]) => T) | (abstract new (...args: unknown[]) => T);
+// eslint-disable-next-line @typescript-eslint/no-explicit-any -- any[] is required; unknown[] breaks contravariant constructor parameter checking
+export type ClassToken<T> = (new (...args: any[]) => T) | (abstract new (...args: any[]) => T);
 export type SymbolToken<T> = symbol & { readonly __phantom?: T };
 export type Token<T> = ClassToken<T> | SymbolToken<T>;
 
