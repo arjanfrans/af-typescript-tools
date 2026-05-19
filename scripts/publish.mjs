@@ -87,7 +87,10 @@ for (const { pkgPath, pkg } of packages) {
 const run = (cmd, cwd = root) =>
     execSync(cmd, { cwd, stdio: 'inherit' });
 
-console.log('Building...');
+console.log('Logging in to npm...');
+run('npm login');
+
+console.log('\nBuilding...');
 run('npm run build --workspaces --if-present');
 
 console.log('\nTesting...');

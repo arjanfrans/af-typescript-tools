@@ -24,6 +24,6 @@
     "format:check": "af-format --check src test"
   },
   "devDependencies": {
-    "@arjanfrans/af-codestyle": "*"
+    "@arjanfrans/af-codestyle": "0.0.1"
   }
 }
