@@ -1,0 +1,34 @@
+{
+  "name": "@arjanfrans/af-codestyle",
+  "version": "0.0.1",
+  "description": "Shared ESLint + Prettier config and CLI scripts",
+  "type": "module",
+  "bin": {
+    "af-lint": "./bin/lint.js",
+    "af-format": "./bin/format.js"
+  },
+  "exports": {
+    "./eslint/node": "./src/eslint/node.js",
+    "./eslint/browser": "./src/eslint/browser.js",
+    "./prettier": "./src/prettier.config.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "lint": "node bin/lint.js src",
+    "format": "node bin/format.js src"
+  },
+  "dependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "fast-glob": "^3.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0",
+    "typescript-eslint": "^8.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  }
+}

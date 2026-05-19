@@ -1,0 +1,13 @@
+{
+  "homepage": "https://github.com/arjanfrans/af-typescript-tools#readme",
+  "bugs": {
+    "url": "https://github.com/arjanfrans/af-typescript-tools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjanfrans/af-typescript-tools.git"
+  },
+  "license": "MIT",
+  "author": "Arjan Frans <arjanfrans.com@gmail.com>",
+  "type": "module"
+}

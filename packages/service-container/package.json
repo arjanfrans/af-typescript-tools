@@ -1,0 +1,29 @@
+{
+  "name": "@arjanfrans/af-service-container",
+  "version": "0.0.1",
+  "description": "Lightweight TypeScript service container with lifecycle management",
+  "repository": {
+    "directory": "packages/service-container"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/ServiceContainer.js",
+      "types": "./dist/ServiceContainer.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --import tsx/esm --test test/**/*.ts",
+    "lint": "af-lint src",
+    "lint:fix": "af-lint --fix src",
+    "format": "af-format src test",
+    "format:check": "af-format --check src test"
+  },
+  "devDependencies": {
+    "@arjanfrans/af-codestyle": "*"
+  }
+}
